@@ -8,9 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsUpdateIfYouDare::VERSION
   spec.authors       = ["Ashton Williams"]
   spec.email         = ["Ashton-W@users.noreply.github.com"]
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{update ... if you dare}
+  spec.description   = %q{Go ahead, just update. I dare you.}
+  spec.homepage      = "https://github.com/Ashton-W/cocoapods-update-if-you-dare"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
