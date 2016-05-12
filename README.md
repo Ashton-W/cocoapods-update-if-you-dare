@@ -1,6 +1,8 @@
 # Update If You Dare
 A [CocoaPods](https://cocoapods.org) plugin.
 
+![](screenshot.png)
+
 ## Usage
 
 Run `pod update` and the plugin will try and persuade you to use alternatives before it dares you to just update everything anyway.
