@@ -1,6 +1,9 @@
-# Cocoapods Update If You Dare
+# Update If You Dare
+A [CocoaPods](https://cocoapods.org) plugin.
 
+## Usage
 
+Run `pod update` and the plugin will try and persuade you to use alternatives before it dares you to just update everything anyway.
 
 ## Installation
 
@@ -17,10 +20,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install cocoapods-update-if-you-dare
-
-## Usage
-
-Run `pod update` and the plugin will try and persuade you to use alternatives before it dares you to just update everything anyway.
 
 ## Contributing
 
