@@ -26,3 +26,6 @@ Run `pod update` and the plugin will try and persuade you to use alternatives be
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/Ashton-W/cocoapods-update-if-you-dare.
 
+## Credits
+
+Thanks [@orta](https://github.com/orta/) for chatting to me about this on Slack and for inspiring me with [cocoapods-always-be-bundleing](https://github.com/orta/cocoapods-always-be-bundleing).
