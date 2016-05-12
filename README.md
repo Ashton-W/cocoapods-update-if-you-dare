@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Run `pod update` and the plugin will try and persuade you to use alternatives before it dares you to just update everything anyway.
 
 ## Contributing
 
