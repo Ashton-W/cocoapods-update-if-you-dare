@@ -1,4 +1,7 @@
 # Update If You Dare
+
+[![Gem Version](https://badge.fury.io/rb/cocoapods-update-if-you-dare.svg)](https://badge.fury.io/rb/cocoapods-update-if-you-dare)
+
 A [CocoaPods](https://cocoapods.org) plugin.
 
 ![](screenshot.png)
