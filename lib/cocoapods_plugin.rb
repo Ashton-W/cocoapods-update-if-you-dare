@@ -24,8 +24,7 @@ module Pod
           puts "\n"
           puts "For more information use the " + "--help".blue + " parameter with any command"
           puts "or consult " + "https://guides.cocoapods.org".cyan
-          puts "\n"
-          puts "This message brought to you by the plugin cocoapods-update-if-you-dare"
+          puts "This message is brought to you by the plugin cocoapods-update-if-you-dare"
           puts "\n"
           
           question = "Are you sure you want to update ALL pods?"
