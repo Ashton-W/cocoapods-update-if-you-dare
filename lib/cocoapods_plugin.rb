@@ -10,8 +10,9 @@ module Pod
         verify_podfile_exists! if self.respond_to? :verify_podfile_exists!
 
         dont_talk_to_me_or_my_son_ever_again = `defaults read net.Ashton-W.cocoapods-update-if-you-dare DontAskAgain 2>/dev/null`.chomp == "1"
+        specific_pod_to_update_was_provided = @pods.length > 0
 
-        unless @pods or dont_talk_to_me_or_my_son_ever_again
+        unless specific_pod_to_update_was_provided or dont_talk_to_me_or_my_son_ever_again
 
           puts "\n"
           puts "[!] Running `pod update` will update ALL pods.".yellow
